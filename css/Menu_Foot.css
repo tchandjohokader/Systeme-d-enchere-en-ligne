@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(255, 240, 240) ;
+}
+/*Nav*/
+
+nav
+{
+    height: 2cm;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+.menu{
+    background-color: white;
+    color: white;
+}
+.nav
+{
+    display: flex;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 1cm;
+}
+.navl {
+    margin-left: 2.5cm;
+    color: black;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+input{
+    border-radius: 10px;
+    height: .5cm;
+    width: 6cm;
+    margin-left: 5cm;
+}
+.menu nav ul h2{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+}
+.imgnav{
+    margin-top: 1cm;
+    filter: blur(.5px);
+}
+
+
+/*Footer*/
+
+footer{
+  color:white;
+  background-color: rgb(39, 39, 39) ;
+  margin-top: 50cm;
+}
+body{
+    min-height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+html{
+    height: 100%;
+}
+footer ul li{
+    list-style-type: none;
+}
+.services{
+    margin-left: 8cm;
+    
+}
+.propos{
+    margin-left: 13cm;
+    
+}
+.text{
+    text-align: center;
+    
+}
+.copyright{
+    
+    text-align: center;
+    margin-top: .5cm;
+    
+}
+.footh{
+    display: flex;
+}
+
+footer h2{
+    text-align: center;
+    height: 0cm;
+    margin-bottom: 2cm;
+
+}

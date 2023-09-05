@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(60, 60, 60);
+}
+
+.message{
+    font-size: 35px;
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 12px;
+    transform: translateX(-500px);
+
+}
+img{
+    width: 300px;
+    height: 350px;
+    margin-left:-100px ;
+    border-radius: 12px;
+}
+button{
+    margin-right: 10px;
+    transform: translateY(800px);
+    display: none;
+    background-color: rgb(203, 15, 15);
+    font-size: 25px;
+    color: white;
+    width: 125px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    height: 75%;
+    margin-left: 200px;
+}
+textarea{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 990px;
+    background-color: rgb(243, 243, 243);
+}

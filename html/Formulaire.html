@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Formulaire.css" />
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <div class="page">
+        <div class="image">
+            <img src="../ressource/page_inscription/inscription.jpg" >
+        </div>
+    <div class="big-box">
+        <div class="box-login" style="background-color: rgb(255, 240, 240);">
+            <form action="../php/gestion_d'inscription.php" method="post">        
+                <div class="group-form" >
+                    <p id="0"></p>
+                    <input type="text" placeholder="Nom" id="nom" name="nom">
+                    <img  id="icon1" src="../ressource/image_Formulaire_Inscription/errored.png" alt="icon de verification" class="icon-verif">
+                    <span class="box-alerte" id="alerte-utilisateur">Entrer un nom correcte</span>
+                </div>
+                <div class="group-form">
+                    <p id="0"></p>
+                    <input type="text" placeholder="Prenom"id="prenom"name="prenom">
+                    <img  id="icon1" src="../ressource/image_Formulaire_Inscription/errored.png" alt="icon de verification" class="icon-verif">
+                    <span class="box-alerte" id="alerte-utilisateur">Entrer un Prenom correcte</span>
+                </div>
+                <div class="group-forme">
+                    <select name="sujet" id="sujet" >
+                    <option value="" disabled selected hidden>Civilite</option>
+                    <option value="Monsieur">MONSIEUR</option>
+                    <option value="Madame">MADAME</option>
+                    </select> 
+                </div>
+            <div class="group-form">
+                <p id="2"></p>
+                <input type="text" placeholder="Contact"maxlength="10"name="contact">
+                <img  id="icon1" src="../ressource/image_Formulaire_Inscription/errored.png" alt="icon de verification" class="icon-verif">
+                <span class="box-alerte" id="alerte-utilisateur">Entrer un Contact correcte</span>
+            </div>
+            <div class="group-form">
+                <p id="3"></p>
+                <input type="email" placeholder="email@example.com" id="Email"  name="email">
+                <img  id="icon2" src="../ressource/image_Formulaire_Inscription/errored.png" alt="icon de verification" class="icon-verif">
+                <span class="box-alerte" id="alerte-email">Rentrez un email valide</span>
+            </div>
+            <div class="group-form">
+                <p id="4"></p>
+                <input type="text" placeholder="Numero de CNI ou Passeport"maxlength="20">
+                <img  id="icon1"  alt="icon de verification" class="icon-verif">
+                <span class="box-alerte" id="alerte-utilisateur">ENTRER UN Numero correcte</span>
+            </div>
+            <div class="group-form">
+                <p id="5"></p>
+                <input type="password" placeholder="Mot de passe" id="Password">
+                <img  id="icon3" src="../ressource/image_Formulaire_Inscription/oeil (1).png" alt="icon de verification" class="icon-verif" >
+                <span class="box-alerte" id="m">Entrez un mot de passe</span>
+                <div class="ligne">
+                    <div class="l1"><span id="faible">faile</span></div>
+                    <div class="l2"><span id="moyen">moyen</span></div>
+                    <div class="l3"><span id="fort">fort</span></div>
+                </div>
+            </div>
+            <div class="group-form">
+                 <p id="6"></p>
+                <input type="password" placeholder="Confirmez" id="Confirmate" name="mot_de_passe">
+                <img id="icon3" src="../ressource/image_Formulaire_Inscription/oeil (1).png" alt="icon de verification" class="icon-verif" >
+                <span class="box-alerte" id="m">Mot de passe non identique</span>
+            </div>
+            <button class="creer" id="button1" type="submit">S'INSCRIRE</button>
+        </form>
+    </div> 
+    </div>
+</div>
+
+    <script src="../js/Formulaire.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.grand,.grande{
+    
+    border: 2px solid rgb(247, 244, 244);
+    width: 30%;
+    position:center;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 150px;
+    background-color: aquamarine;
+}
+.text{
+    text-transform: uppercase;
+}
+button{
+    cursor: pointer;
+    background-color: white;
+    border:  rgb(247, 244, 244);
+}
+input{
+    border:  none;
+} 

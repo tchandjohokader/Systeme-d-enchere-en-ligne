@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(255, 240, 240);
+}
+/*Nav*/
+
+nav
+{
+    height: 2cm;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+.menu{
+    background-color: white;
+    color: black;
+}
+.nav
+{
+    display: flex;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 1cm;
+}
+.navl {
+    margin-left: 2.5cm;
+    color: black;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+input{
+    border-radius: 10px;
+    height: .5cm;
+    width: 6cm;
+    margin-left: 5cm;
+}
+.menu nav ul h2{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+}
+.imgnav{
+    margin-top: 1cm;
+    filter: blur(.5px);
+    animation: animate 1s  ease-in-out;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+/*Footer*/
+
+footer{
+  color: white;
+  background-color: rgb(39,39,39) ;
+  margin-top: 5cm;
+}
+body{
+    min-height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+html{
+    height: 100%;
+}
+footer ul li{
+    list-style-type: none;
+}
+.services{
+    margin-left: 8cm;
+    
+}
+.propos{
+    margin-left: 13cm;
+    
+}
+.text{
+    text-align: center;
+    
+}
+.copyright{
+    
+    text-align: center;
+    margin-top: .5cm;
+    
+}
+.footh{
+    display: flex;
+}
+
+footer h2{
+    text-align: center;
+    height: 0cm;
+    margin-bottom: 2cm;
+
+}
+/*le corps*/
+#categories{
+    margin-top: 11cm;
+    font-style: normal;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#AMEUBLEMENT{
+    height: 6cm;
+    width: 5cm;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1cm;
+}
+h4{
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 1cm;
+}
+.L1cat{
+    display: flex;
+    
+}
+.L2cat{
+    display: flex;
+    margin-top: 1cm;
+}
+.L3cat{
+    display: flex;
+    margin-top: 1cm;
+}
+#produits{
+    margin-top: 4cm;
+    font-style: normal;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+#prod{
+    height: 10cm;
+    width: 5cm;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1cm;
+
+}
+#P{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+#Pr{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: red;
+    text-align: right;
+    margin-top: 1cm;
+}
+#exempleprod{
+    display: flex;
+    margin-top: 2cm;
+
+}
+#Pr1{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: red;
+    text-align: right;
+    margin-top: 1.3cm;
+
+}
+b{
+    margin-left: 1cm;
+}
+
+
+
+/*animation*/
+
+[class*="invisible"]{
+    opacity: 0;
+    transform: translateX(30px);
+}
+.visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s ;
+}
+.invisible1{
+    transition: 1.5s ease-in-out ;
+}
+.invisible2{
+    transition: 1.5s ease-in-out ;
+}
+

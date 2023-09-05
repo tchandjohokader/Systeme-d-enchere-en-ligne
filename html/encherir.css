@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+    margin-top:5%;
+}
+
+.contain-user{
+    display: flex;
+    flex-direction: column;
+    margin-right: 9%;
+    justify-content: space-between;
+}
+
+.user{
+
+    width: 70px;
+    height: 70px;
+    background-color: rgb(197, 197, 235);
+    border-radius: 200px;
+    margin: 20px;
+    color: black;
+    text-align: center; 
+}
+.user1{
+    border-radius: 0px;
+    width: 100px;
+    background-color: rgb(197, 197, 235);
+    margin: 20px;
+    margin-top: -180px;
+    color: black;
+    text-align: center;
+}
+
+
+.user h5{
+    margin-top: 30%;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+}
+
+
+
+.contain-img{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 490px;
+    margin-right: 1%;
+}
+
+
+.img1{
+    width: 100%;
+    
+}
+
+
+.img1 img{
+    width: 100%;
+    height: 490px;
+}
+
+
+
+
+
+.description{
+    width: 300px;
+    line-height: 2.1em;
+    height: fit-content;
+}
+
+.contain-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.img{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+
+.contain-img h2{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+form{
+    width: 100%;
+    height: fit-content;
+}
+
+input{
+    height: 40px;
+}
+
+input[type='number']{
+    width: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.417);
+    border-radius: 5px;
+}
+
+
+input[type="submit"]{
+    width: 25%;
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+}
+
+.grand{
+    border: 2px solid rgb(247, 244, 244);
+    width: 30%;
+    position:absolute;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: -350px;
+    display: none;
+    background-color: white;
+}
+.text{
+    text-transform: uppercase;
+    color: white;
+}
+a{
+    text-decoration: none;
+}

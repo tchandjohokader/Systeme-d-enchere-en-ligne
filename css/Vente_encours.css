@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(255, 240, 240) ;
+    color: black;
+}
+/*Nav*/
+
+nav
+{
+    height: 2cm;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+.menu{
+    background-color: white;
+    color: black;
+}
+.nav
+{
+    display: flex;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 1cm;
+}
+.navl {
+    margin-left: 2.5cm;
+    color: black;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+input{
+    border-radius: 10px;
+    height: .5cm;
+    width: 6cm;
+    margin-left: 5cm;
+}
+.menu nav ul h2{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+}
+.imgnav{
+    margin-top: 1cm;
+    filter: blur(.5px);
+    animation: animate 1s  ease-in-out;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+
+
+
+/*Footer*/
+
+footer{
+  color:#f0f9ff;
+  background-color: rgb(43, 42, 42) ;
+  margin-top: 5cm;
+}
+body{
+    min-height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+html{
+    height: 100%;
+}
+footer ul li{
+    list-style-type: none;
+}
+.services{
+    margin-left: 8cm;
+    
+}
+.propos{
+    margin-left: 13cm;
+    
+}
+.text{
+    text-align: center;
+    
+}
+.copyright{
+    
+    text-align: center;
+    margin-top: .5cm;
+    
+}
+.footh{
+    display: flex;
+}
+
+footer h2{
+    text-align: center;
+    height: 0cm;
+    margin-bottom: 2cm;
+
+}
+/*Le corps*/
+#V1{
+    display: flex;
+    height: 7cm;
+    width: 11.5cm;
+    background-color: white;
+    margin-top: 9cm;
+    margin-right: .3cm;
+}
+#V2{
+    display: flex;
+    height: 7cm;
+    width: 11.5cm;
+    background-color: white;
+    margin-top: 1cm;
+    margin-right: .3cm;
+}
+#V3{
+    display: flex;
+    height: 7cm;
+    width: 11.5cm;
+    background-color: white;
+    margin-top: 1cm;
+    margin-right: .3cm;
+}
+#V4{
+    display: flex;
+    height: 7cm;
+    width: 11.5cm;
+    background-color: white;
+    margin-top: 1cm;
+    margin-right: .3cm;
+}
+#V5{
+    display: flex;
+    height: 7cm;
+    width: 11.5cm;
+    background-color: white;
+    margin-top: 1cm;
+    margin-right: .3cm;
+}
+#T{
+    margin-left: .5cm;
+}
+h4{
+    margin-left: 2.5cm;
+    margin-top: 4.5cm;
+    color: red;
+}
+#vente{
+    display: flex;
+}
+#R{
+    color: red;
+}
+
+/*animation*/
+[class*="invisible"]{
+    opacity: 0;
+    transform: translateY(-300px);
+}
+.visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 3s ;
+}
+.inisible{
+    animation: wou 3s ease-in-out ;
+}
+@keyframes wou {
+    0%{
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
